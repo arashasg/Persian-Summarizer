@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Arash
+/Docs/img/
+/Resources/hoshvare dataset/
+/News Summarizer/Data/hoshvare data-final.csv
+
+.iml
+.xml
+.idea
