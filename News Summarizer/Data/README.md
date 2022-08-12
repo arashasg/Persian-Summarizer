@@ -25,14 +25,14 @@ Tebyan News dataset:
 !gdown --id 1QqNI1GKJv9GvyjUaGh6XW7t9jLc9haU7
 ```
 
-AsrIran News Dataset(cleaned):
+AsrIran News Dataset:
 ```
 !gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
 ```
 
-AsrIran News Dataset(Raw):
+AsrIran News Dataset(cleaned):
 ```
-!gdown --id 1CyVbL8b--ei8cPXXtRMlqoLntezqCLtO
+!gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
 ```
 
 Tasnim News Dataset(cleaned):
