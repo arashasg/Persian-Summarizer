@@ -46,33 +46,3 @@ Tasnim News Dataset(cleaned):
 
 
 
-Tebyan News dataset:
-```
-!gdown --id 1QqNI1GKJv9GvyjUaGh6XW7t9jLc9haU7
-```
-
-AsrIran News dataset(raw):
-```
-!gdown --id 1CyVbL8b--ei8cPXXtRMlqoLntezqCLtO
-```
-
-AsrIran News dataset(cleaned):
-```
-!gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
-```
-
-Tasnim News dataset(raw):#bull shit
-```
-!gdown --id 1ChlHwwRjCsC2FzrnEiSIoTwhpna8AGa_
-```
-
-Tasnim News dataset(cleaned):
-```
-!gdown --id 166s3khMLSxlcT78a8hCVz9X233Lfkq5g
-```
-
-
-
-
-
-
