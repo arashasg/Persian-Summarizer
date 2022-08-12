@@ -22,6 +22,39 @@ BBC Persian dataset:
 
 Tebyan News dataset:
 ```
+!gdown --id 1-8KABMqzZM0qb3myrauhUrhWE013v1mj
+```
+
+BBC Persian dataset:
+```
+!gdown --id 1jDmWFyftPbOeQYva3xF7IoARwdCVwD2E
+```
+!gdown --id 1QqNI1GKJv9GvyjUaGh6XW7t9jLc9haU7
+```
+
+AsrIran News Dataset:
+```
+!gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
+```
+
+AsrIran News Dataset(cleaned):
+```
+!gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
+```
+
+Tasnim News Dataset(cleaned):
+```
+!gdown --id 166s3khMLSxlcT78a8hCVz9X233Lfkq5g
+```
+
+
+
+
+
+
+
+Tebyan News dataset:
+```
 !gdown --id 1QqNI1GKJv9GvyjUaGh6XW7t9jLc9haU7
 ```
 
