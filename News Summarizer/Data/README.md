@@ -51,3 +51,7 @@ Tasnim News Dataset(cleaned):
 
 
 
+Asre-Iran dataset:
+```buildoutcfg
+!gdown --id 11RpLCe__WNWes_5PWyUEuGPetdLe9hGO
+```
