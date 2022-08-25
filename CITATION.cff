@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Asgari"
+  given-names: "Arash"
+  orcid: "https://orcid.org/0000-0002-5317-0551"
+- family-names: "Nikeghbal"
+  given-names: "Nafise"
+- family-names: "Abdollahi Moghadam"
+  given-names: "Behdad"
+- family-names: "Esmaeili"
+  given-names: "Elyas"
+- family-names: "Hajihoseini"
+  given-names: "Hadi"
+title: "ParsSum: Persian Summarizers with Transformer-Based Encoder-Decoder Architectures"
+version: 1.0.0
+date-released: 2022-08-27
+url: "github.com/arashasg/persian-news-summarizer"
