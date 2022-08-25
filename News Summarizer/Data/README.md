@@ -22,13 +22,6 @@ BBC Persian dataset:
 
 Tebyan News dataset:
 ```
-!gdown --id 1-8KABMqzZM0qb3myrauhUrhWE013v1mj
-```
-
-BBC Persian dataset:
-```
-!gdown --id 1jDmWFyftPbOeQYva3xF7IoARwdCVwD2E
-```
 !gdown --id 1QqNI1GKJv9GvyjUaGh6XW7t9jLc9haU7
 ```
 
