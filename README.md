@@ -21,3 +21,18 @@ Finally, each folder of the repository contains readme files for making our code
 │   └───hoshvare dataset
 └───UI        # The files for django web application implementation are presented here.
 ```
+
+#### Citation
+
+If you use any part of this repository in your research, please cite it using the following BibTex entry.
+
+```
+@software{Asgari_ParsSum_Persian_Summarizers_2022,
+author = {Asgari, Arash and Nikeghbal, Nafise and Abdollahi Moghadam, Behdad and Esmaeili, Elyas and Hajihoseini, Hadi},
+month = {8},
+title = {{ParsSum: Persian Summarizers with Transformer-Based Encoder-Decoder Architectures}},
+url = {github.com/arashasg/persian-news-summarizer},
+version = {1.0.0},
+year = {2022}
+}
+```
