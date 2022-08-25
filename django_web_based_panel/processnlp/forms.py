@@ -45,6 +45,11 @@ def generate_summary(model, abstract, num_beams = 2, repetition_penalty = 1.0,
     return "".join(preds)
 ##########
 
+# MODEL 3
+fine3 = AutoModelForSeq2SeqLM.from_pretrained('processnlp/model_3/mt5-small-fine-tune-100', local_files_only=True)
+tokenizer3 = MT5Tokenizer.from_pretrained("processnlp/model_2/mt5-small", local_files_only=True)
+##########
+
 class NlpModelForm(forms.Form):
     nlp_model_num = forms.ChoiceField(choices=NlpModel.NLP_MODEL_NUM_CHOICES)
     original_text = forms.CharField(required=False)
@@ -77,6 +82,8 @@ class NlpModelForm(forms.Form):
             summary = result['predictions'][0]
         elif nlp_model_num == '2':
             summary = generate_summary(model=fine, abstract=original_text, num_beams=2, max_output_length=120)
+        elif nlp_model_num == '3':
+            summary = generate_summary(model=fine3, abstract=original_text, num_beams=2, max_output_length=120)
         else:
             summary = text
         end_time = time.time()

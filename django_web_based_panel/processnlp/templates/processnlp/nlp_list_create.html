@@ -36,7 +36,7 @@
             <tr>
                 <td>{{ nlp_model.original_text|truncatechars:120|linebreaks }}</td>
                 <td>{{ nlp_model.nlp_model_num }}</td>
-                <td>{{ nlp_model.summary|truncatechars:120|linebreaks }}</td>
+                <td>{{ nlp_model.summary|truncatechars:220|linebreaks }}</td>
                 <td>{{ nlp_model.processing_time }}</td>
             </tr>
         {% endfor %}
