@@ -35,6 +35,11 @@ AsrIran News Dataset(cleaned):
 !gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
 ```
 
+Tasnim News Dataset(raw):
+```
+!gdown --id 1ChlHwwRjCsC2FzrnEiSIoTwhpna8AGa_
+```
+
 Tasnim News Dataset(cleaned):
 ```
 !gdown --id 166s3khMLSxlcT78a8hCVz9X233Lfkq5g
