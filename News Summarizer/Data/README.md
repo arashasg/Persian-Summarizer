@@ -51,7 +51,29 @@ Tasnim News Dataset(cleaned):
 
 
 
-Asre-Iran dataset:
-```buildoutcfg
-!gdown --id 11RpLCe__WNWes_5PWyUEuGPetdLe9hGO
+Tebyan News dataset:
 ```
+!gdown --id 1QqNI1GKJv9GvyjUaGh6XW7t9jLc9haU7
+```
+
+AsrIran News Dataset(cleaned):
+```
+!gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
+```
+
+AsrIran News Dataset(Raw):
+```
+!gdown --id 1CyVbL8b--ei8cPXXtRMlqoLntezqCLtO
+```
+
+Tasnim News Dataset(cleaned):
+```
+!gdown --id 166s3khMLSxlcT78a8hCVz9X233Lfkq5g
+```
+
+
+
+
+
+
+
