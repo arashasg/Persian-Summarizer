@@ -50,6 +50,24 @@ fine3 = AutoModelForSeq2SeqLM.from_pretrained('processnlp/model_3/mt5-small-fine
 tokenizer3 = MT5Tokenizer.from_pretrained("processnlp/model_2/mt5-small", local_files_only=True)
 ##########
 
+# MODEL 4
+from transformers import (
+    BertTokenizerFast,
+    EncoderDecoderConfig,
+    EncoderDecoderModel,
+)
+tokenizer4 = BertTokenizerFast.from_pretrained('processnlp/model_4/WikiBert2WikiBert', local_files_only=True)
+config4 = EncoderDecoderConfig.from_pretrained('processnlp/model_4/WikiBert2WikiBert', local_files_only=True)
+model4 = EncoderDecoderModel.from_pretrained('processnlp/model_4/WikiBert2WikiBert', local_files_only=True, config=config4)
+def generate_summary4(text):
+    inputs = tokenizer4(text, padding="max_length", truncation=True, max_length=512, return_tensors="pt")
+    input_ids = inputs.input_ids
+    attention_mask = inputs.attention_mask
+    outputs = model4.generate(input_ids, attention_mask=attention_mask)
+    output_str = tokenizer4.batch_decode(outputs, skip_special_tokens=True)
+    return output_str
+##########
+
 class NlpModelForm(forms.Form):
     nlp_model_num = forms.ChoiceField(choices=NlpModel.NLP_MODEL_NUM_CHOICES)
     original_text = forms.CharField(required=False)
@@ -84,6 +102,8 @@ class NlpModelForm(forms.Form):
             summary = generate_summary(model=fine, abstract=original_text, num_beams=2, max_output_length=120)
         elif nlp_model_num == '3':
             summary = generate_summary(model=fine3, abstract=original_text, num_beams=2, max_output_length=120)
+        elif nlp_model_num == '4':
+            summary = generate_summary4(original_text)
         else:
             summary = text
         end_time = time.time()

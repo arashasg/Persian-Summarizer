@@ -1,14 +1,71 @@
-# Nlp web application project
+# Django Web-Based Panel for Models
 
 This project is a web application powered by django and python, its goal is to get text input from user and
 process it with nlp models and store and show the result.
 
 # Installation
 
-this project runs in docker, so first you need to install docker for you operating system, you can dowload
-docker from [here](https://docs.docker.com/get-docker/), don't forget to signup in [docker hub](https://hub.docker.com/)
+This project can run with or without docker
+## - Without Docker (recommended)
+First clone the project then create a virtual environment with the command below:
+
+windows:
+```bash
+python -m venv venv
+```
+
+mac or linux:
+```bash
+python3 -m venv venv
+```
+
+Activating the virtual environment:
+
+windows:
+```bash
+.\venv\scripts\activate
+```
+
+mac or linux:
+```bash
+source venv/bin/activate
+```
+
+Install python packages from the `requirements.txt` file provided for the project.
+
+windows:
+```bash
+pip install -r requirements.txt
+```
+
+mac or linux:
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Now, run the command below to create the database.
+```bash
+python manage.py migrate
+```
+
+Now, database is already created. Create a super user to use to login by the command below:
+```bash
+python manage.py createsuperuser
+```
+for example: `username: hadi | password: hadi | email: (empty)`
+
+You can now run the project by running the command below:
+```bash
+python manage.py runserver
+```
+
+now you can access the project via address http://127.0.0.1:8000/ on your computer.
+
+
+## - Using Docker
+Install docker from [here](https://docs.docker.com/get-docker/), don't forget to signup in [docker hub](https://hub.docker.com/)
 you will need it.
-after docker installation clone this project into your computer and open the terminal in the project root directory and
+After docker is installed, clone this project into your computer and open the terminal in the project root directory and
 type
 
 ```bash
@@ -32,10 +89,10 @@ now you can access the project via address http://127.0.0.1:8000/ on your comput
 
 # sending commands to docker-compose sevices
 
-you can send you commands for any service defined in docker-compose file like bellow:
+you can send you commands for any service defined in docker-compose file like bellow. for example:
 
 ```bash
 docker-compose exec <service name> <command>
 ```
 
-we saw an example before when we sent python manage.py migrate command to web service.
+Thanks.

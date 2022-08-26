@@ -8,7 +8,8 @@ class NlpModel(models.Model):
     NLP_MODEL_NUM_CHOICES = (
         ('1', _('1. ParsBERT_sum')),
         ('2', _('2. MT5_fine_tuned')),
-        ('3', _('3. WikiBert2WikiBert')),
+        ('3', _('3. MT5 fine-tuned v2.0')),
+        ('4', _('4. WikiBert2WikiBert')),
     )
     original_text = models.TextField(_('Original text'))
     nlp_model_num = models.CharField(_('Nlp model number'), max_length=2, choices=NLP_MODEL_NUM_CHOICES)
