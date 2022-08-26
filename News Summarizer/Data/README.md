@@ -25,22 +25,22 @@ Tebyan News dataset:
 !gdown --id 1QqNI1GKJv9GvyjUaGh6XW7t9jLc9haU7
 ```
 
-AsrIran News Dataset:
+AsrIran News dataset(raw):
+```
+!gdown --id 1CyVbL8b--ei8cPXXtRMlqoLntezqCLtO
+```
+
+AsrIran News dataset(cleaned):
 ```
 !gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
 ```
 
-AsrIran News Dataset(cleaned):
-```
-!gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
-```
-
-Tasnim News Dataset(raw):
+Tasnim News dataset(raw):
 ```
 !gdown --id 1ChlHwwRjCsC2FzrnEiSIoTwhpna8AGa_
 ```
 
-Tasnim News Dataset(cleaned):
+Tasnim News dataset(cleaned):
 ```
 !gdown --id 166s3khMLSxlcT78a8hCVz9X233Lfkq5g
 ```

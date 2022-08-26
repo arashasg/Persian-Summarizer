@@ -1,0 +1,45 @@
+{% extends '_base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Natural language processing' %}{% endblock %}
+{% block content %}
+    <form style="color: white !important" action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="original_text_id" class="form-label text-white">{% trans 'Original text' %}</label>
+        <textarea style="margin-top: 20px; margin-bottom: 20px;" class="form-control" id="original_text_id" rows="3" name="original_text"></textarea>
+        {{ form.text_file.errors }}
+        <span class="dropdown-el">
+            {% for db_val, human_val in model_num_choices %}
+            <input type="radio" name="nlp_model_num" value="{{ db_val }}" id="{{ db_val }}-id"
+            {% if forloop.first %}checked{% endif %}>
+            <label for="{{ db_val }}-id">{{ human_val }}</label>
+            {% endfor %}
+        </span>
+        <p style="display: inline; color: white">{% trans "Or" %}</p>
+        <div style="display: inline; padding-top: 20px; padding-bottom: 20px;">
+            {{ form.text_file }}
+        </div>
+        <br>
+        {{ form.non_field_errors }}
+        <input style="margin-top: 20px; margin-bottom: 20px;" type="submit" value="{% trans 'process' %}" class="btn btn-primary">
+    </form>
+    <table>
+        <thead>
+        <tr>
+            <th>{% trans 'Original text' %}</th>
+            <th>{% trans 'Nlp model number' %}</th>
+            <th>{% trans 'Summary' %}</th>
+            <th>{% trans 'Processing time' %}</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for nlp_model in nlp_models %}
+            <tr>
+                <td>{{ nlp_model.original_text|truncatechars:120|linebreaks }}</td>
+                <td>{{ nlp_model.nlp_model_num }}</td>
+                <td>{{ nlp_model.summary|truncatechars:220|linebreaks }}</td>
+                <td>{{ nlp_model.processing_time }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

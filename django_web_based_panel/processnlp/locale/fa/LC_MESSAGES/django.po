@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-23 10:27+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\processnlp\forms.py:57
+msgid "You must either upload a file or fill the text field."
+msgstr ""
+"شما می بایست یا یک فایل txt آپلود کنید یا در متن خود را در کادر بالا وارد "
+"کنید."
+
+#: .\processnlp\models.py:9
+msgid "ParsBERT_sum"
+msgstr "ParsBERT_sum"
+
+#: .\processnlp\models.py:10
+msgid "MT5_fine_tuned"
+msgstr "MT5_fine_tuned"
+
+#: .\processnlp\models.py:11
+msgid "WikiBert2WikiBert"
+msgstr "WikiBert2WikiBert"
+
+#: .\processnlp\models.py:13
+#: .\processnlp\templates\processnlp\nlp_list_create.html:7
+#: .\processnlp\templates\processnlp\nlp_list_create.html:28
+msgid "Original text"
+msgstr "متن اصلی"
+
+#: .\processnlp\models.py:14
+#: .\processnlp\templates\processnlp\nlp_list_create.html:29
+msgid "Nlp model number"
+msgstr "شماره مدل nlp"
+
+#: .\processnlp\models.py:15
+#: .\processnlp\templates\processnlp\nlp_list_create.html:30
+msgid "Summary"
+msgstr "نتیجه"
+
+#: .\processnlp\models.py:16
+msgid "Datetime created"
+msgstr "تاریخ و زمان ایجاد"
+
+#: .\processnlp\models.py:17
+msgid "Datetime modified"
+msgstr "تاریخ و زمان تغییر"
+
+#: .\processnlp\models.py:18
+#: .\processnlp\templates\processnlp\nlp_list_create.html:31
+msgid "Processing time"
+msgstr "زمان پردازش"
+
+#: .\processnlp\models.py:22
+msgid "Nlp model"
+msgstr "مدل nlp"
+
+#: .\processnlp\models.py:23
+msgid "Nlp models"
+msgstr "مدل های nlp"
+
+#: .\processnlp\templates\processnlp\nlp_list_create.html:3
+msgid "Natural language processing"
+msgstr "پردازش زبان طبیعی"
+
+#: .\processnlp\templates\processnlp\nlp_list_create.html:17
+msgid "Or"
+msgstr "یا"
+
+#: .\processnlp\templates\processnlp\nlp_list_create.html:23
+msgid "process"
+msgstr "پردازش کن"
+
+#: .\processnlp\templates\processnlp\nlp_result.html:3
+#: .\processnlp\templates\processnlp\nlp_result.html:6
+msgid "Result"
+msgstr "نتیجه"
+
+#: .\processnlp\templates\processnlp\nlp_result.html:11
+msgid "back to previous page"
+msgstr "بازگشت به صفحه ی قبل"
+
+#~ msgid "Number 1"
+#~ msgstr "شماره 1"
+
+#~ msgid "Number 2"
+#~ msgstr "شماره 2"
+
+#~ msgid "Number 3"
+#~ msgstr "شماره 3"
+
+#~ msgid "Number 4"
+#~ msgstr "شماره 4"
+
+#~ msgid "Number 5"
+#~ msgstr "شماره 5"
+
+#~ msgid "Previos sessions"
+#~ msgstr "نتایج قبلی"
