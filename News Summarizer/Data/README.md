@@ -35,7 +35,7 @@ AsrIran News dataset(cleaned):
 !gdown --id 1aI7vExQPkd038584TRDgS6UNsYZLeO4h
 ```
 
-Tasnim News dataset(raw):#bull shit
+Tasnim News dataset(raw):
 ```
 !gdown --id 1ChlHwwRjCsC2FzrnEiSIoTwhpna8AGa_
 ```
